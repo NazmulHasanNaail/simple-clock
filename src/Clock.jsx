@@ -18,7 +18,7 @@ componentDidMount(){
 render(){
 
     return<>
-         <h1>State</h1>
+         <h1>Simple Clock</h1>
          <h2 className="heading">
            {this.state.date.toLocaleTimeString(this.props.local)}
          </h2>
